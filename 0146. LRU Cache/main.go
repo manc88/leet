@@ -78,11 +78,3 @@ func (this *LRUCache) Get(key int) int {
 	return -1
 }
 
-func main() {
-
-	obj := Constructor(2)
-	obj.Put(2, 1)
-	obj.Put(2, 2)
-	fmt.Println(obj.Get(2))
-
-}
