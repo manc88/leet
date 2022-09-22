@@ -2,7 +2,6 @@ package main
 
 import (
 	"container/list"
-	"fmt"
 	"sync"
 )
 
@@ -77,4 +76,3 @@ func (this *LRUCache) Get(key int) int {
 
 	return -1
 }
-
